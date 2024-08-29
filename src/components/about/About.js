@@ -7,7 +7,6 @@ import {info} from "../../info/Info";
 
 export default function About({innerRef}) {
     const firstName = info.firstName.toLowerCase()
-
     function aboutMeText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
